@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<style>
+body{
+  background-image:url('Beans.jpg');
+  font-family:Georgia;
+}
+.info{
+  height:900px;
+  width:250px;
+  background-color:burlywood;
+  position:sticky;
+  left:50px;
+  right:50px;
+  top:100px;
+  overflow:auto;
+}
+.title{
+  text-align:center;
+  font-size:40px;
+}
+#est{
+  text-align:center;
+  font-size:12px;
+  margin-top:20px;
+  font-family:Times New Roman;
+}
+.end{
+  width:200px;
+  height:2.5px;
+  background-color:maroon;
+  border-top:0.4px solid black;
+  border-left:0.4px solid black;
+  margin-left:20px;
+  margin-right:20px;
+}
+#coffee{
+  text-align:center;
+  font-size:30px;
+}
+#coffeeimage{
+  height:50px;
+  width:50px;
+  position:relative;
+  left:60px;
+  right:150px;
+}
+.price1{
+  margin-left:80px;
+}
+.price2{
+  margin-left:45.4px;
+}
+.price3{
+  margin-left:76.8px;
+}
+.price4{
+  margin:123.7px;
+}
+.price5{
+  margin-left:140px;
+}
+#pie{
+    text-align:center;
+    font-size:30px;
+}
+#pieimage{
+  height:50px;
+  width:50px;
+  position:relative;
+  left:60px;
+  right:150px;
+}
+.price6{
+  margin-left:140px;
+}
+.price7{
+  margin-left:112px;
+}
+.price8{
+  margin-left:100px;
+}
+.price9{
+  margin:83.3px;
+}
+#end2{
+   width:200px;
+  height:2.5px;
+  background-color:maroon;
+  border-top:0.4px solid black;
+  border-left:0.4px solid black;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:30px;
+}
+.Link1{ 
+  margin-left:80px;
+  font-size:12px;
+  color:black;
+}
+
+</style>
+<body>
+  <div class="info">
+    <h3 class="title">Camper Cafe</h3>
+      <p id="est"> Est.2020</p>
+      <div class="end">
+        </div>
+        <figure>
+ <figcaption id="coffee">Coffee</figcaption>
+  <img src="coffee.jpg" id=coffeeimage></img>
+  </figure>
+    <br>French Vanilla     <span class="price1">3.00</span>
+<br>
+   <br> Caramel Macchiato     <span class="price2">3.75</span>
+<br>
+  <br> Pumpkin Spice         <span class="price3">3.50</span>
+  <br>
+  <br> Hazelnut<span class="price4">4.00</span>
+<br>
+  <br> Mocha                <span class="price5">4.50<span>
+  
+    <br>
+    <br>
+            <figure>
+ <figcaption id="pie">Desert</figcaption>
+  <img src="pie.jpg" id="pieimage"></img>
+  </figure>
+   <br>Donut     <span class="price6">3.00</span>
+<br>
+   <br> Cherry pie<span class="price7">3.75</span>
+<br>
+  <br>Cheesecake        <span class="price8">3.50</span>
+  <br>
+  <br>CinnamonRoll<span class="price9">4.00</span>
+<br>
+      <div id="end2">
+        </div>
+        <a href="#" class="Link1">Visit Our Website</a>
+  </div>
+  
+</body>
+</html>
